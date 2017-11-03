@@ -1,5 +1,4 @@
-<h1>Catsta</h1>
-<div>cat pics go here</div>
+<%= render 'layouts/nav' %>
 
 <% @cats.each do |c| %>
 	<%= image_tag c["url"] %>

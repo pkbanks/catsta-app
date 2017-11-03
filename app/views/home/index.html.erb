@@ -1,6 +1,9 @@
 <h1>Catsta</h1>
 <div>cat pics go here</div>
 
+<% @cats.each do |c| %>
+	<div><%= c["url"] %></div>
+<% end %>
 
 
 

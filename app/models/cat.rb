@@ -1,4 +1,4 @@
-class Cat < ActiveRecord::Base
+class Cat
 
 	@@url_base = "http://thecatapi.com/api/"	
 	api_key = 'MjM5MTgy'
